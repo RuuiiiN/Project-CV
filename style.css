@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #eee;
+    padding: 20px;
+}
+
+.cv {
+    width: 900px;
+    margin: auto;
+    display: flex;
+    background: #fff;
+}
+
+/* KIRI */
+.left {
+    width: 30%;
+    background: #4a525e;
+    color: #fff;
+    padding: 20px;
+}
+
+.profile {
+    width: 70%;
+    height: 25%;
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+
+.profile:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    background: #adb2c9;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-radius: 5rem;
+}
+
+.section p,
+.section li {
+    font-size: 13px;
+    margin-bottom: 6px;
+}
+
+.section ul {
+    padding-left: 18px;
+}
+
+.section img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+/* KANAN */
+.right {
+    width: 70%;
+}
+
+.header {
+    background: #d6ce34;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+
+.header .role {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-top: 5px;
+}
+
+.content {
+    padding: 25px;
+}
+
+.content h2 {
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.content h3 {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.content p {
+    font-size: 14px;
+    margin: 8px 0;
+}
+
+.content ul {
+    padding-left: 20px;
+    font-size: 14px;
+}
